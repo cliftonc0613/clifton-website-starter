@@ -68,7 +68,16 @@ Open `CLAUDE.md` and follow the comprehensive guidelines for:
 - Visual design implementation
 - Technical development standards
 
-### 4. Build Your Site
+### 4. Follow the Mandatory Planning Workflow
+**CRITICAL:** Never start coding without following these steps:
+
+1. **Create tasks/todo.md** - Plan your work completely first
+2. **Get plan approved** - Verify approach before implementing  
+3. **Work incrementally** - One task at a time, mark as complete
+4. **Keep changes simple** - Minimal code impact for each task
+5. **Document progress** - High-level explanations of what you did
+
+### 5. Build Your Site
 Create your website following the proven patterns:
 - Clean HTML structure with semantic elements
 - Mobile-first CSS using the documented standards
@@ -101,6 +110,9 @@ Create your website following the proven patterns:
 your-website-project/
 ├── CLAUDE.md              # Complete design guidelines (READ FIRST)
 ├── README.md              # Project documentation
+├── tasks/
+│   ├── todo.md            # MANDATORY: Planning and task tracking
+│   └── todo-example.md    # Example of proper planning workflow
 ├── template.html          # HTML template following proven patterns
 ├── template.css           # CSS template with design standards
 ├── index.html             # Your actual website file

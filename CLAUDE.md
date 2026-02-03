@@ -4,6 +4,24 @@
 
 ## 🚨 NON-NEGOTIABLE RULES
 
+**DEVELOPMENT WORKFLOW - FOLLOW THESE STEPS EXACTLY:**
+
+### 🧠 MANDATORY PLANNING PROCESS
+1. **THINK FIRST:** Read the codebase for relevant files and understand the problem completely
+2. **WRITE A PLAN:** Create detailed todo list in `tasks/todo.md` with checkboxes
+3. **GET APPROVAL:** Check in and get plan verified before starting ANY work
+4. **WORK INCREMENTALLY:** Complete todo items one by one, marking as complete
+5. **COMMUNICATE:** Give high-level explanation of changes at every step
+6. **KEEP IT SIMPLE:** Every change should impact as little code as possible
+7. **REVIEW:** Add summary section to `tasks/todo.md` when complete
+
+### 🎯 DEVELOPMENT STANDARDS
+- **NO LAZINESS:** Find root causes, no temporary fixes, you are a senior developer
+- **SIMPLICITY FIRST:** Make changes as simple as humanly possible
+- **MINIMAL IMPACT:** Only touch code relevant to the task, nothing else
+- **NO BUGS:** Goal is to never introduce bugs through complexity
+- **ONE TASK = ONE CHANGE:** Each todo item should be focused and atomic
+
 **NEVER build a website without studying these reference sites FIRST:**
 
 1. **Manning Lawn Care:** https://cliftonc0613.github.io/manning-lawn-care/
@@ -123,10 +141,48 @@ Logo/Business Name | Services | About | Gallery | Contact | Call Now Button
 - Touch-friendly navigation
 - Fast loading on mobile networks
 
+## 📋 MANDATORY TASK PLANNING WORKFLOW
+
+**BEFORE ANY CODING:** Create `tasks/todo.md` file with this structure:
+
+```markdown
+# Project: [Business Name] Website
+
+## Problem Analysis
+- [ ] Read existing codebase for relevant files
+- [ ] Understand the specific requirements
+- [ ] Identify potential issues or challenges
+
+## Implementation Plan
+- [ ] Task 1: [Specific, simple change]
+- [ ] Task 2: [Next logical step]
+- [ ] Task 3: [Continue with minimal changes]
+- [ ] Task 4: [Final verification/testing]
+
+## Completed Tasks
+✅ [Mark completed tasks here with brief explanation]
+
+## Review Summary
+**Changes Made:** [High-level summary of what was accomplished]
+**Files Modified:** [List of files that were changed]
+**Impact:** [How minimal was the code impact]
+**Root Causes Fixed:** [Any bugs fixed at root level]
+```
+
+**WORKFLOW REQUIREMENTS:**
+1. **Always create tasks/todo.md first** - never start coding without it
+2. **Get plan approval** before implementing anything
+3. **One task at a time** - complete and check off before moving to next
+4. **Simple changes only** - if a task feels complex, break it down further
+5. **Document everything** - high-level explanations at each step
+6. **Review at end** - summarize what was accomplished
+
 ## 📂 REPOSITORY STRUCTURE
 
 ```
 business-name-website/
+├── tasks/
+│   └── todo.md              # MANDATORY: Planning and tracking
 ├── index.html
 ├── styles.css
 ├── README.md
@@ -293,6 +349,37 @@ Before considering ANY website complete:
 - [ ] Clear contact methods
 - [ ] Builds trust and credibility
 - [ ] Looks like proven reference sites
+
+---
+
+## 💻 SENIOR DEVELOPER STANDARDS
+
+**YOU ARE A SENIOR DEVELOPER - ACT LIKE ONE:**
+
+### 🚫 ZERO TOLERANCE POLICIES
+- **NO LAZINESS:** Never take shortcuts, always find root causes
+- **NO TEMPORARY FIXES:** Fix problems properly the first time
+- **NO COMPLEX CHANGES:** If it's not simple, break it down further
+- **NO BUG INTRODUCTION:** Simplicity prevents bugs
+
+### ⚡ SIMPLICITY REQUIREMENTS
+- **MINIMAL CODE IMPACT:** Change only what's necessary for the task
+- **ATOMIC CHANGES:** One logical change per commit
+- **READABLE CODE:** Clear, self-documenting changes
+- **TESTED CHANGES:** Verify each change works before moving on
+
+### 🔍 ROOT CAUSE ANALYSIS
+When you encounter a bug:
+1. **Find the root cause** - don't just fix symptoms
+2. **Understand why it happened** - prevent similar issues
+3. **Fix it properly** - no band-aids or workarounds
+4. **Document the fix** - explain what caused it
+
+### 📐 CHANGE IMPACT RULES
+- **One file changed per task** whenever possible
+- **Focused changes** - don't refactor unrelated code
+- **Preserve existing functionality** unless specifically changing it
+- **Test the specific change** before considering it complete
 
 ---
 
