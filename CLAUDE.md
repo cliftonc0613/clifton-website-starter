@@ -1,3 +1,63 @@
+# Clifton Website Starter
+
+## Project Overview
+
+**Project Name:** Clifton Website Starter
+**Project Type:** Template/Design System
+**Description:** A starter template system for building spec contractor websites for the Smart Start Website service ($97/month).
+
+## Project Structure
+
+```
+clifton-website-starter/
+├── .claude/
+│   ├── agents/          # 38 specialized AI agents
+│   ├── commands/        # 17 custom slash commands
+│   ├── skills/          # 23 reusable skills
+│   └── config.json      # Configuration
+├── context/
+│   └── core/
+│       ├── business-profile.json    # Your business positioning
+│       ├── voice-dna.json           # Your communication style
+│       └── icp.json                 # Your ideal client profiles
+├── knowledge/
+│   ├── drafts/          # Work in progress
+│   ├── published/       # Finalized content
+│   ├── notes/           # Quick notes and ideas
+│   └── research/        # Research materials
+├── tasks/               # Task planning and tracking
+├── assets/              # Images and static files
+├── template.html        # HTML starter template
+├── template.css         # CSS starter template
+├── CLAUDE.md            # This file
+└── README.md            # Project documentation
+```
+
+## Synced Components
+
+Synced from [claude-starter](https://github.com/cliftonc0613/claude-starter) on 2026-02-03.
+
+**Agents (38):** Content research, design/development, market research, personal development, project management, research, utilities, YouTube analytics
+
+**Commands (17):** Blog research, newsletter research, daily/weekly check-in, design polish, git flow, market research, press release, website research, YouTube research, and more
+
+**Skills (23):** AI boardroom, brand guidelines, business profiles, content creation, course creation, frontend design, PDF tools, presentations, StoryBrand, voice DNA, and more
+
+To re-sync: `/development:sync-claude-config`
+
+## Getting Started
+
+1. **Fill out your profiles** in `context/core/`:
+   - `business-profile.json` - Document your business
+   - `voice-dna.json` - Capture your communication style
+   - `icp.json` - Define your ideal clients
+
+2. **Build websites** using the proven design system below
+
+3. **Use agents and commands** from `.claude/` for content, research, and development tasks
+
+---
+
 # Clifton's Proven Website Design System
 
 **CRITICAL: Read this entire file before building ANY website. These are proven design standards that convert prospects into clients.**
