@@ -150,6 +150,7 @@ a:hover {
     padding: 18px 0;
     position: fixed;
     top: 0;
+    transition: padding 0.3s ease, box-shadow 0.3s ease;
     left: 0;
     right: 0;
     z-index: 1000;
@@ -163,12 +164,22 @@ a:hover {
     gap: 20px;
 }
 
+.header.scrolled {
+    padding: 10px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.header.scrolled .logo h1 {
+    font-size: 1.2em;
+}
+
 .logo h1 {
     font-size: 1.5em;
     font-weight: 700;
     color: #333;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    transition: font-size 0.3s ease;
 }
 
 .nav {
