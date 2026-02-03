@@ -492,6 +492,7 @@ a:hover {
     border-radius: 8px;
     border: 1px solid #e9ecef;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
 }
 
 .service-card:hover {
@@ -518,6 +519,8 @@ a:hover {
 
 .service-card ul {
     list-style: none;
+    display: inline-block;
+    text-align: left;
 }
 
 .service-card ul li {
