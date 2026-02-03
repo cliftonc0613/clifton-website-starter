@@ -40,6 +40,11 @@ The heart of this template is the comprehensive `CLAUDE.md` file that contains:
 - Layout patterns and component structures
 - Mobile responsive breakpoints
 
+### Template Files
+- **template.html:** Complete HTML structure following proven patterns
+- **template.css:** CSS stylesheet with industry-tested design standards
+- Ready-to-customize templates with placeholders for business content
+
 ## 🚀 Quick Start
 
 ### 1. Study the Reference Sites
@@ -96,8 +101,10 @@ Create your website following the proven patterns:
 your-website-project/
 ├── CLAUDE.md              # Complete design guidelines (READ FIRST)
 ├── README.md              # Project documentation
-├── index.html             # Main website file
-├── styles.css             # CSS stylesheet
+├── template.html          # HTML template following proven patterns
+├── template.css           # CSS template with design standards
+├── index.html             # Your actual website file
+├── styles.css             # Your custom stylesheet
 ├── assets/
 │   ├── images/
 │   │   ├── hero-image.jpg
