@@ -925,8 +925,8 @@ a:hover {
 
 .emergency-icon {
     font-size: 48px;
-    color: #dc2626;
-    background-color: #fef2f2;
+    color: #333;
+    background-color: #e5e7eb;
     width: 72px;
     height: 72px;
     border-radius: 50%;
@@ -937,7 +937,7 @@ a:hover {
 }
 
 .emergency-title {
-    color: #dc2626;
+    color: #111;
     font-size: 1.8em;
     font-weight: 700;
     margin-bottom: 0;
@@ -945,7 +945,7 @@ a:hover {
 }
 
 .emergency-subtitle {
-    color: #dc2626;
+    color: #111;
     font-size: 1.6em;
     font-weight: 700;
     margin-bottom: 20px;
@@ -977,14 +977,14 @@ a:hover {
 
 .emergency-badge .material-icons {
     font-size: 20px;
-    color: #16a34a;
+    color: #333;
 }
 
 .emergency-btn {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-    background-color: #dc2626;
+    background-color: #111;
     color: #fff;
     padding: 18px 48px;
     border-radius: 8px;
@@ -996,7 +996,7 @@ a:hover {
 }
 
 .emergency-btn:hover {
-    background-color: #b91c1c;
+    background-color: #333;
     color: #fff;
 }
 
