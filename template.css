@@ -20,6 +20,7 @@ body {
 :root {
     /* Lawn Care Colors (adjust as needed) */
     --primary: #2d5a3d;      /* Forest green */
+    --primary-dark: #1e3d28;  /* Darker green */
     --primary-light: #4a7c5a; /* Lighter green */
     --accent: #1e3a8a;       /* Trust blue */
     --accent-light: #3b82f6;  /* Lighter blue */
